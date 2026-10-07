@@ -1,0 +1,47 @@
+================================================================================
+PERSONAL FINANCE SIMULATOR - 10-YEAR RESULTS SUMMARY REPORT
+================================================================================
+
+Total Households Analyzed: 32,424
+Simulation Horizon: 10 Years (120 Months)
+
+Simulation Constants:
+  - Extra Savings Rate: 10.0% of monthly income
+  - Investment Return Rate: 10.0% per annum
+  - Inflation Rate: 5.0% per annum
+  - Savings Account Interest Rate: 3.0% per annum
+
+--------------------------------------------------------------------------------
+1. FINANCIAL GOAL ACHIEVEMENT RATES (% Households Reaching 10-Yr Goal)
+--------------------------------------------------------------------------------
+  Scenario 1 (Current Plan - 3% Bank Rate)      :  60.12%
+  Scenario 2 (Save 10% More - 3% Bank Rate)     :  66.74%
+  Scenario 3 (Save 10% More + 10% Investment)   :  88.74%
+
+--------------------------------------------------------------------------------
+2. AVERAGE FINAL INFLATION-ADJUSTED WEALTH BALANCE ($ USD)
+--------------------------------------------------------------------------------
+  Scenario 1 (Current Plan)                     : $  339,905.57
+  Scenario 2 (Save 10% More)                    : $  374,460.25
+  Scenario 3 (Save 10% More + Invest)           : $  658,011.92
+
+--------------------------------------------------------------------------------
+3. PAIRED STATISTICAL HYPOTHESIS TEST (Scenario 3 vs. Scenario 1)
+--------------------------------------------------------------------------------
+  H0: Mean final real wealth is equal between Scenario 3 and Scenario 1.
+  H1: Mean final real wealth in Scenario 3 is significantly greater than Scenario 1.
+  Paired t-statistic                            : 286.4861
+  p-value                                       : 0.0000e+00
+  Conclusion: Reject H0. Investing additional savings at 10% annual return
+  yields a statistically significant increase in 10-year household net worth (p < 0.0001).
+
+--------------------------------------------------------------------------------
+4. SENSITIVITY MATRIX (% Households Reaching Goal)
+--------------------------------------------------------------------------------
+              Inflation 3.0%  Inflation 5.0%  Inflation 7.0%
+Return 4.0%        79.956205       71.123242       59.647175
+Return 7.0%        87.703553       81.418085       73.424007
+Return 10.0%       92.783124       88.739822       83.142117
+Return 13.0%       96.046139       93.483222       89.834690
+
+================================================================================
